@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #90EE90;
+}
+
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.button {
+    align-items: center;
+    appearance: none;
+    background-color: #ff6347; 
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(255, 99, 71, 0.4) 0 2px 4px, rgba(255, 99, 71, 0.3) 0 7px 13px -3px, #ff4500 0 -3px 0 inset; /* Changed shadow color to coral */
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: rgba(255, 99, 71, 0.6) 0 3px 6px, rgba(255, 99, 71, 0.5) 0 9px 19px -4px, #ff4500 0 -5px 0 inset; /* Changed hover shadow color to coral */
+    transform: translateY(-1px); 
+}
+
+
+.button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}  
+
+.button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
